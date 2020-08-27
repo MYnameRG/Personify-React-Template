@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import chat from "./icons8-chat-room-48.png";
 import location from "./icons8-location-48.png";
@@ -6,12 +6,14 @@ import message from "./icons8-important-mail-48.png";
 import phone from "./icons8-phone-48.png";
 
 export default function Contact() {
-    return (<Fragment>
+    return (
+    <Container className="main-portion">
         <Container className="header-container">
             <Row>
                 <Col><u>Contact Us</u></Col>
             </Row>
         </Container>
+
         <Container className="caption-container">
         <Row>
             <Col>If you have a question or a comment, please call us on +91 8657 23673 (9.30am to 5.30pm. Monday to Saturday.) or email us at support@personify.net or use the form below to contact us.</Col>
@@ -21,7 +23,7 @@ export default function Contact() {
         <Container className="form-container">
             <Row>
                 <Col md={{ span: 4, offset: 1 }}>
-              <Form>
+              <Form>ohit
                 <Form.Group controlId="formBasicEmail">
                     <Form.Label>Your Name</Form.Label>
                     <Form.Control type="text" placeholder="Enter Name" />
@@ -40,6 +42,7 @@ export default function Contact() {
                 <Button variant="primary" type="submit">Submit</Button>
               </Form>
               </Col>
+
               <Col md={{ span: 3, offset: 3 }}>
                 <div className="element-container">
                     <img src={chat} alt="" /> Chat Online
@@ -56,5 +59,5 @@ export default function Contact() {
               </Col>               
             </Row>
         </Container>
-    </Fragment>);
+    </Container>);
 }

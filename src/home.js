@@ -6,7 +6,7 @@ export default function Home() {
     return (<Fragment>
         <div className="home">
             <img src={image} height="80" alt="" />
-            <h1>Personify</h1>
+            <h1>Personify&nbsp;</h1>
             <p>Be Ambitious.To Show Your Skills.</p>
         </div>
         <div className="started">

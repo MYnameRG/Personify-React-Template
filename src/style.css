@@ -22,9 +22,15 @@
     font-family: sans-serif;
 }
 
+.main-portion {
+    border-radius: 10px;
+    background-color: whitesmoke;
+    padding: 0 0 15px 0;
+}
+
 .header-container {
-    margin-top: 50px;    
-    color: rgb(216, 208, 208);
+    margin-top: 20px;    
+    color: rgba(30, 99, 145, 0.555);
     text-align: center;
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -33,7 +39,7 @@
 
 .caption-container { 
     margin-top: 10px;   
-    color: white;
+    color: rgba(0, 0, 0, 0.555);
     text-align: center;
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -41,7 +47,7 @@
 
 .form-container { 
     margin-top: 50px;   
-    color: beige;
+    color: rgba(0, 0, 0, 0.555);
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -50,4 +56,17 @@
     margin-top: 10px;
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.data-container {
+    margin-top: 10px;
+    color: rgba(30, 99, 145, 0.555);
+    font-weight: 300;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.desp-container {
+    color: rgba(0, 0, 0, 0.555);
+    font-size: large;    
 }
